@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>X Mart | Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./index.js"></script>
+    <script src="./"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Quicksand:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="head">
+        <h1>X Mart</h1>
+      </div>
+      <div class="input input-search">
+        <i><span class="material-icons-outlined"> search </span></i>
+        <input class="search-input" type="text" placeholder="Search" />
+      </div>
+      <nav class="page-nav">
+        <ul>
+          <div class="icon-with-badge">
+            <a href="../cart/cart.html"
+              ><i
+                ><span class="material-icons-outlined">shopping_cart</span></i
+              ></a
+            >
+
+            <div class="badge badge-icon">3</div>
+          </div>
+          <div class="icon-with-badge">
+            <a href="../wishlist/wishlist.html"
+              ><i
+                ><span
+                  class="material-icons-outlined"
+                  style="color: rgb(226, 17, 17)"
+                  >favorite</span
+                >
+              </i></a
+            >
+            <div class="badge badge-icon">3</div>
+          </div>
+          <a href="../index.html"
+            ><img class="avatar-smallest" src="https://picsum.photos/100"
+          /></a>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero-img-container">
+      <img class="hero-img" src="./images/HomePageImage.jpg" />
+      <div class="hero-cta-container">
+        <h2 class="hero-title">
+          Your One Spot destination to buy all treding clothes out there
+        </h2>
+        <div class="hero-cta" onclick="handleCategoryClick()">Shop Now</div>
+      </div>
+    </section>
+    <h2 class="feature-category-title">Categories To Bag</h2>
+    <section class="feature-category-list">
+      <div
+        class="feature-category-item"
+        onclick="handleCategoryClick('shirts')"
+      >
+        <div class="img-div img-circle" style="height: auto; width: 80%">
+          <img class="category-img" src="./images/shirt.jpg" />
+        </div>
+        <p>Shirts</p>
+      </div>
+      <div
+        class="feature-category-item"
+        onclick="handleCategoryClick('tshirts')"
+      >
+        <div class="img-div img-circle" style="height: auto; width: 80%">
+          <img class="category-img" src="./images/tshirt.jpg" />
+        </div>
+        <p>Tshirts</p>
+      </div>
+      <div class="feature-category-item" onclick="handleCategoryClick('jeans')">
+        <div class="img-div img-circle" style="height: auto; width: 80%">
+          <img class="category-img" src="./images/jeans.jpg" />
+        </div>
+        <p>Jeans</p>
+      </div>
+      <div
+        class="feature-category-item"
+        onclick="handleCategoryClick('shorts')"
+      >
+        <div class="img-div img-circle" style="height: auto; width: 80%">
+          <img class="category-img" src="./images/trouser.jpg" />
+        </div>
+        <p>Trousers</p>
+      </div>
+    </section>
+    <footer>
+      <p>External links</p>
+      <ul>
+        <li>
+          <a href="" alt="github">
+            <i><img src="./images/github.svg" /></i>
+          </a>
+        </li>
+        <li>
+          <a href="" alt="discord">
+            <i
+              ><i><img src="./images/discord.svg" /></i
+            ></i>
+          </a>
+        </li>
+        <li>
+          <a href="" alt="gmail">
+            <i
+              ><i><img src="./images/gmail.svg" /></i
+            ></i>
+          </a>
+        </li>
+        <li>
+          <a href="" alt="twitter">
+            <i
+              ><i><img src="./images/twitter.svg" /></i
+            ></i>
+          </a>
+        </li>
+        <li>
+          <a href="" alt="linkedin">
+            <i
+              ><i><img src="./images/linkedin.svg" /></i
+            ></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
