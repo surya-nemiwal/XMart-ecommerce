@@ -40,6 +40,10 @@ header a {
   margin: 0rem;
 }
 
+.wishlist-icon{
+  color: rgb(226, 17, 17);
+}
+
 .page-nav ul:last-child a{
   margin: 0rem;
 }

@@ -145,7 +145,7 @@ const trouserDataList = [
         productName: "HighLighter",
       },
 ];
-var productList = [];
+let productList = [];
 
 function buildProductItem(productItem) {
   return `<div class="card">
