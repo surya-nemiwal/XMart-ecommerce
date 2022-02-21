@@ -1,0 +1,196 @@
+@import url("https://dev-u-i.netlify.app/style.css");
+
+body {
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  margin: 0rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0.5rem;
+  left: .5rem;
+  width: 99%;
+  height: 3rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.274);
+  background-color: white;
+  border-radius: 0.3rem;
+  justify-content: space-between;
+  z-index: 1;
+  padding: .5rem 0rem;
+}
+
+header h1 {
+  font-size: 40px;
+  margin: 0px 20px 0px 20px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+.page-nav{
+  margin: 0rem;
+}
+
+.page-nav ul {
+  display: flex;
+  margin: 0rem;
+}
+
+.page-nav ul:last-child a{
+  margin: 0rem;
+}
+
+.content {
+  display: grid;
+  grid-template-areas: "sidebar main";
+  grid-template-columns: 10rem 1fr;
+}
+
+.sidebar-nav {
+  position: fixed;
+  top: 4.7rem;
+  grid-area: sidebar;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.274);
+  border-radius: 0.3rem;
+}
+
+.main {
+  grid-area: main;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.274);
+}
+
+.feature-category-title {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.feature-category-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.feature-category-item {
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(224, 206, 206);
+  border-radius: 0.5rem;
+  padding-top: 0.5rem;
+  height: 20rem;
+}
+
+.feature-category-item:hover {
+  transform: scale(1.1);
+  transition: .5s;
+  cursor: pointer;
+}
+
+.feature-category-item p{
+  font-weight: 800;
+  margin-top: 1.5rem;
+}
+
+.category-img {
+  height: 50px;
+}
+
+.hero-img-container {
+  margin-top: 5rem;
+  color: white;
+}
+
+.hero-img {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  filter: brightness(30%);
+}
+
+.hero-cta-container {
+  position: absolute;
+  bottom: 30%;
+  left: 10%;
+  width: 60%;
+}
+.hero-title {
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+.hero-cta {
+  max-width: 120px;
+  padding: 10px 20px;
+  border: 1px solid white;
+}
+
+.hero-cta:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.cartlist-card-div,
+.product-list-container {
+  margin-top: 4.7rem;
+  text-align: center;
+}
+
+.cartlist-card-div .card-horizontal {
+  margin: 1rem auto;
+}
+
+.price-detail {
+  background-color: turquoise;
+  text-align: center;
+  padding: 2rem;
+  max-width: 30rem;
+  margin: auto;
+  border-radius: 1rem;
+}
+
+.price-detail ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.price-detail li {
+  display: flex;
+  justify-content: space-between;
+}
+
+#product-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card{
+  margin: 1rem;
+}
+
+footer {
+  color: white;
+  background-color: #23272a;
+  text-align: center;
+  padding: 2rem;
+}
+
+footer li{
+  display: inline;
+}
+
+footer a{
+  text-decoration: none;
+  margin: 1rem;
+}
+
+.page-nav a{
+  border-bottom: 0rem;
+}
+
+.icon-with-badge:first-child span{
+  color: black;
+}

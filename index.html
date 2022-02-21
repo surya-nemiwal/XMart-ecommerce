@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loginPage.css">
+    <script src="./loginPage.js"></script>
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Quicksand:wght@500&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <p class="logo">Welcome to, <span>X Mart</span></p>
+    <div class="login-container">
+        <div>
+            <h1 id="formHeading">Login</h1>   
+        </div>
+        <hr> 
+        <input type="text" class="input-field" value="user" id="username" placeholder="User Name" required>
+        <input type="password" class="input-field" value="password" id="password" placeholder="Password" required>
+        <div class="forgot-password-container"><a href="#" class="forgot-password" >Forgot Password?</a></div>
+        <button onclick="handleSubmit()" id="submitBtn">Login</button>
+        <p>don't have an account, <span onclick="handleLoginSignupToggle()" id="otherFormHeading">Signup</span>.</p>
+        <p id="validationMessage"></p>
+        <p class="login-info">(  Note:enter User Name as "user" and password as "password" without quotes to login  )</p>
+    </div>
+</body>
+</html>

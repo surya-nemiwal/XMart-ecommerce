@@ -1,0 +1,32 @@
+.product-list-container{
+    grid-area: product-list-container;
+    margin-left: 16rem;
+}
+
+.filters {
+    position: fixed;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.274);
+    width: 12rem;
+    padding: 1rem 1rem;
+    border-radius: .3rem;
+    margin-left:.9rem ;
+    grid-area: filters;
+    margin-top: .5rem;
+}
+
+.filters h2{
+    margin: 0rem;
+}
+
+.filters ul{
+    list-style-type: none;
+    padding: 0rem;
+}
+
+.filters ul h3{
+    margin: 0rem 0rem .5rem;
+}
+
+.filters li{
+    font-size: 1.1rem;
+}
